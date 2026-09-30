@@ -1,0 +1,11 @@
+<!doctype html><html lang="bn"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#075e3d"><title>BJMD — সাংবাদিক ও মিডিয়া ডিরেক্টরি</title>
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><b>বাংলাদেশ সাংবাদিক ও মিডিয়া ডিরেক্টরি</b><nav><a href="index.html">ডিরেক্টরি</a><a href="admin.html">অ্যাডমিন</a></nav></header>
+<main><section class="hero"><h1>সাংবাদিক খুঁজুন</h1><p>নাম, মিডিয়া, জেলা বা উপজেলা দিয়ে খুঁজুন</p><input id="q" placeholder="সার্চ করুন..."></section>
+<div class="filters"><select id="division"><option value="">সব বিভাগ</option></select><select id="district"><option value="">সব জেলা</option></select><select id="upazila"><option value="">সব উপজেলা</option></select><select id="kind"><option value="">সব মিডিয়া</option></select></div>
+<div id="stats" class="stats"></div><h2>সাংবাদিকদের তালিকা</h2><div id="list" class="grid"></div></main>
+<div id="modal" class="modal hidden"><div class="box"><button class="x" onclick="closeM()">×</button><div id="detail"></div></div></div>
+<script src="app.js"></script></body></html>

@@ -1,0 +1,9 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BJMD Admin</title><link rel="stylesheet" href="style.css"></head>
+<body><header><b>BJMD — Super Admin</b><nav><a href="index.html">ডিরেক্টরি</a></nav></header><main>
+<section id="login" class="panel"><h2>Super Admin Login</h2><input id="em" placeholder="ই-মেইল"><input id="pw" type="password" placeholder="পাসওয়ার্ড"><button onclick="login()">লগইন</button><p class="hint">ডেমো: admin@bjmd.local / Admin@1234</p></section>
+<section id="dash" class="hidden"><div id="astats" class="stats"></div>
+<div class="panel"><h2>সাংবাদিক যোগ করুন</h2><div class="form">
+<input id="name" placeholder="পূর্ণ নাম *"><input id="post" placeholder="পদবি"><input id="media" placeholder="মিডিয়ার নাম *"><input id="kind" placeholder="মিডিয়ার ধরন">
+<input id="phone" placeholder="মোবাইল"><input id="wa" placeholder="WhatsApp"><input id="mail" placeholder="ই-মেইল"><input id="div" placeholder="বিভাগ">
+<input id="dist" placeholder="জেলা"><input id="upa" placeholder="উপজেলা"></div><button onclick="add()">তথ্য সংরক্ষণ</button></div>
+<div class="panel"><h2>ডাটাবেজ</h2><div id="rows"></div></div></section></main><script src="admin.js"></script></body></html>
